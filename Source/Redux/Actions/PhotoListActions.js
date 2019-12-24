@@ -1,7 +1,8 @@
 import {GET_PHOTOS} from "./Types";
 
-export const getPhotosListAction = () => {
+export const getPhotosListAction = (page) => {
     return {
-        type: GET_PHOTOS
+        type: GET_PHOTOS,
+        page
     }
 };
